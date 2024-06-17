@@ -14,7 +14,7 @@ builder.Services.AddCors(options =>
 {
     options.AddPolicy("DefaultPolicy", builder => 
     {
-        builder.WithOrigins("http://localhost:4200")
+        builder.WithOrigins("http://localhost:4200", "http://localhost:5104")
                .AllowAnyMethod()
                .AllowAnyHeader();
     });
@@ -39,3 +39,6 @@ app.UseCors("DefaultPolicy"); //Política de CORS
 app.MapControllers();
 
 app.Run();
+
+//tornando a classe Program pública..
+public partial class Program { }
