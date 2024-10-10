@@ -19,7 +19,7 @@ Este projeto é uma API desenvolvida em ASP.NET Core 8 para gerenciar tarefas e 
 
 1. Clone o repositório:
     ```bash
-    git clone https://github.com/seu-usuario/task-management-api.git
+    git clone https://github.com/sergio-coti/AgendaApp.git
     ```
 
 2. Altere a string de conexão na classe `DataContext` localizada na pasta `Data` ou conforme a estrutura do seu projeto. O código na classe `DataContext` deve ficar assim:
